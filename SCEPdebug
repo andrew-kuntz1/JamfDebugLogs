@@ -1,8 +1,3 @@
-<!-- ================ -->
-<!--    SCEP Proxy    -->
-<!-- ================ -->
-<Configuration>
-    <Appenders>
         <RollingFile name="SCEP"
                      fileName="/path/to/file/scep.log"
                      filePattern="/path/to/file/scep.log.%i">
@@ -21,5 +16,3 @@
                 includeLocation="false">
             <AppenderRef ref="SCEP"/>
         </Logger>
-    </Loggers>
-</Configuration>
